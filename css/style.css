@@ -1,0 +1,87 @@
+*{
+    margin: 0;
+}
+.fa-brands{
+    content: var(--fa) / "";
+}
+.navbar{
+    background: #163959;
+    height: 2em;
+    z-index: 1;
+    position: fixed;
+    display: flex;
+    flex-direction: row-reverse;
+    align-items: normal;
+    justify-content: space-between;
+    width: 100%;
+}
+.logo{
+    padding: 5px 2px;
+    border-radius: 50%;
+    position: absolute;
+    z-index: 1;
+}
+.logo:hover{
+    background: #1f466f;
+}
+.git{
+    color: black;
+}
+.menu{
+    text-decoration: none;
+    position: absolute;
+    left: 0;
+}
+.menu-item{
+    background: none;
+    border: none;
+    padding: 7px 7px;
+}
+.menu-item:hover{
+    background: #1f466f;
+}
+.menu-item i{
+    font-size: 1em;
+}
+a{
+    text-decoration: none;
+    color: #fff;
+    height: 100%;
+    width: 50%;
+    padding: 2px 5px;
+}
+.visible {
+    display: block;
+    animation: expand 750ms ease-in-out;
+    transform-origin: top;
+}
+.notVisible {
+    display: none;
+}
+.hidden{
+    background: #151515;
+    width: 100%;
+    padding: 0;
+}
+.list{
+    list-style: none;
+    padding: 10px 20px;
+    padding-right: 150px;
+}
+.menu ul li:hover{
+    background: #463f3f;
+}
+
+@keyframes expand {
+    0% {
+        transform: scaleY(0);
+    }
+
+    70% {
+        transform: scaleY(1.1);
+    }
+
+    100% {
+        transform: scaleY(1);
+    }
+}
