@@ -1,4 +1,4 @@
-[
+{"projects":[
   {
     "name": "Transit",
     "address": "https://sepehr-design.github.io/transit/",
@@ -17,4 +17,4 @@
     "git": "https://github.com/sepehr-design/main-page",
     "id": 3
   }
-]
+]}
