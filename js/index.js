@@ -49,7 +49,7 @@ function proGen(gen){
         output1 += "</div>"
         output1 += "<div class=\"projectAccess\">"
         output1 += "<a href=\"\" class=\"seeSite\">See The Site</a>"
-        output1 += "<a href=\"\" class=\"gitSite\"><i class=\"fa-brands fa-github git\"></i></a>"
+        output1 += "<a href=\"\" class=\"gitSite\"><i class=\"fa-brands fa-github accGit\"></i></a>"
 
         output1 += "</div>"
         output1 += "</div>"
@@ -58,8 +58,8 @@ function proGen(gen){
         document.getElementById("projects").innerHTML += output1;
         document.getElementById("projects").children[item].children[0].id = idMaker1;
 
-        const primaryImageUrl = gen[item].img;
-        const fallbackImageUrl = 'img/image-not-found-scaled.png';
+        const primaryImageUrl = 'https://sepehr-design.github.io/main-page/'+gen[item].img;
+        const fallbackImageUrl = 'https://sepehr-design.github.io/main-page/img/image-not-found-scaled.png';
         const img = new Image();
         img.src = primaryImageUrl;
 

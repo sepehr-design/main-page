@@ -26,7 +26,7 @@ body{
 }
 .navbar{
     background: #0d2942;
-    height: 2em;
+    height: 2.5em;
     z-index: 1;
     position: fixed;
     display: flex;
@@ -46,6 +46,10 @@ body{
 }
 .git{
     color: black;
+    font-size: 1.8em;
+}
+.accGit{
+    color: black;
 }
 .menu{
     text-decoration: none;
@@ -61,7 +65,7 @@ body{
     background: #1f466f;
 }
 .menu-item i{
-    font-size: 1em;
+    font-size: 1.8em;
 }
 a{
     text-decoration: none;
