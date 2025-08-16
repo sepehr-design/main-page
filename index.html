@@ -7,10 +7,9 @@
     <title>Main Page</title>
     <link rel="stylesheet" href="css/style.css">
     <script src="https://kit.fontawesome.com/2682bc4489.js" crossorigin="anonymous"></script>
-    <link rel="stylesheet" href="css/pc-size.css" media="only screen and (min-aspect-ratio: 1/1)">
 </head>
 <body>
-    <div class="header">
+    <div class="header" id="header">
         <div class="navbar">
             <div class="logo">
                 <a href="https://github.com/sepehr-design/">
@@ -24,34 +23,57 @@
                 </button>
 
                 <ul class="hidden notVisible" id="menu">
-                    <li class="list"><a href="index.html"><h2>Home</h2></a></li>
-                    <li class="list"><a href="#"><h2>About</h2></a></li>
-                    <li class="list"><a href="#"><h2>Services</h2></a></li>
-                    <li class="list"><a href="#"><h2>Contact</h2></a></li>
+                    <li class="list"><a href="index.html" class="menuContent"><i class="fas fa-home"></i><h2>Home</h2></a></li>
+                    <li class="list"><a href="#" class="menuContent"><i class="fa-circle-info fas"></i><h2>About</h2></a></li>
+                    <li class="list"><a href="#" class="menuContent"><i class="fa-server fas"></i><h2>Services</h2></a></li>
+                    <li class="list"><a href="#" class="menuContent"><i class="fas fa-regular fa-address-book"></i><h2>contract</h2></a></li>
                 </ul>
             </div>
         </div>
-        <p>
-
-        </p>
+        <h2 class="welcome wel1">
+            welcome to sepehr design main page
+        </h2>
+        <h3 class="welcome wel2">place where you can see all of sepehr design projects</h3>
     </div>
     <div class="main-container">
         <h1>
-
+            My Projects
         </h1>
-        <div class="main-content" id = "projects">
-            <ul>
-                <li></li>
-                <li></li>
-                <li></li>
-                <li></li>
+        <div class="main-content">
+            <ul class="proCon" id = "projects">
+<!--                <li class="projectContainer">-->
+<!--                    <div class="projectImg"></div>-->
+<!--                    <div class="projectInfo">-->
+<!--                        <div class="projectTitle">-->
+<!--                            <h3>Project Name</h3>-->
+<!--                            <p>Project Description</p>-->
+<!--                        </div>-->
+<!--                        <div class="projectAccess">-->
+<!--                            <a href="" class="seeSite" id="seeSite">See The Site</a>-->
+<!--                            <a href="" class="gitSite"><i class="fa-brands fa-github git"></i></a>-->
+<!--                        </div>-->
+<!--                    </div>-->
+
+<!--                </li>-->
             </ul>
         </div>
     </div>
     <div class="footer">
-
+        <ul>
+            <li>© Untitled. All rights reserved.</li>
+            <li>Design: <a href="https://github.com/sepehr-design">sepehr-design</a></li>
+            <li>Images: <a href="#">Unsplash</a></li>
+        </ul>
     </div>
-
+    <div class="loader spinner" id="loader">
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+    </div>
 
 
 

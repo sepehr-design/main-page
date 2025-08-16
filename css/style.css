@@ -1,11 +1,31 @@
 *{
     margin: 0;
 }
+body{
+    background: #cccccc;
+}
 .fa-brands{
-    content: var(--fa) / "";
+    content: "";
+}
+.header{
+    background :url("../img/dark_tint.png"),url("../img/bokeh_car_lights_bg.jpg") center center;
+    background-size: cover;
+}
+.welcome{
+    text-align: center;
+    color: aliceblue;
+}
+.wel1{
+    padding: 60px 40px 5px;
+    font-size: 1.1em;
+}
+.wel2{
+    padding: 5px 40px 20px;
+    font-size: 0.9em;
+    font-weight: normal;
 }
 .navbar{
-    background: #163959;
+    background: #0d2942;
     height: 2em;
     z-index: 1;
     position: fixed;
@@ -47,7 +67,6 @@ a{
     text-decoration: none;
     color: #fff;
     height: 100%;
-    width: 50%;
     padding: 2px 5px;
 }
 .visible {
@@ -59,17 +78,23 @@ a{
     display: none;
 }
 .hidden{
-    background: #151515;
+    background: #2b2828;
     width: 100%;
     padding: 0;
 }
 .list{
     list-style: none;
-    padding: 10px 20px;
-    padding-right: 150px;
+    padding: 10px 150px 20px 0;
+}
+.menuContent i{
+    margin-right: 15px;
+
+}
+.menuContent i, .menuContent h2{
+    display: inline;
 }
 .menu ul li:hover{
-    background: #463f3f;
+    background: #2b2626;
 }
 
 @keyframes expand {
@@ -84,4 +109,139 @@ a{
     100% {
         transform: scaleY(1);
     }
+}
+.main-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+ul{
+    padding: 0;
+}
+.proCon{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.projectContainer{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 92%;
+    border-radius: 15px;
+    height: 200px;
+    background: #1f466f;
+    margin-top: 20px;
+    box-shadow: 7px 7px 10px #14212e;
+}
+.projectImg{
+    width: 100%;
+    height: 60%;
+    background-size: cover;
+    border-radius: 5px;
+    background-image: url("/img/image-not-found-scaled.png");
+}
+.projectInfo{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    width: 100%;
+    margin-top: 8px;
+}
+.projectTitle{
+    width: 60%;
+}
+.projectTitle p{
+    font-size: 0.9em;
+}
+.projectAccess{
+    display: flex;
+    flex-direction: column;
+    align-items: end;
+    justify-content: center;
+}
+.seeSite{
+    background: orange;
+    color: white;
+    border-radius: 25px;
+    margin-bottom: 5px;
+    padding: 6px;
+    box-shadow: 2px 2px 4px #14212e;
+}
+.seeSite:hover{
+    background: #926d29;
+}
+.gitSite{
+    border-radius: 50%;
+    padding: 2px;
+}
+.gitSite:hover{
+    background: #1a3b5d;
+}
+.loader{
+
+}
+.spinner{
+    background: coral;
+    color: white;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+    position: fixed;
+    z-index: 50;
+    inset: 0;
+}
+.loader>div{
+    border-radius: 3px;
+    display: inline-block;
+    margin: 7px;
+    height: 50px;
+    width: 5px;
+    background-color: #302723;
+    animation: loading 1s cubic-bezier(.85,.25,.37,.85) -.6s infinite;
+}
+.loader>div:first-child,.loader>div:nth-child(7){
+    animation-delay: -0.2s;
+}
+.loader>div:nth-child(2),.loader>div:nth-child(6){
+    animation-delay: -0.3s;
+}
+.loader>div:nth-child(3),.loader>div:nth-child(5){
+    animation-delay: -0.4s;
+}
+.loader>div:nth-child(4){
+    animation-delay: -0.5s;
+}
+@keyframes loading {
+    0% {
+        transform: scaleY(1);
+    }
+    50%{
+        transform: scaleY(0.4);
+    }
+    100% {
+        transform: scaleY(1);
+    }
+}
+.footer {
+    background-color: #474747;
+    padding: 50px 30px;
+    color: #858585;
+    margin-top: 20px;
+}
+
+.footer ul li {
+    display: flow;
+    margin: 5px 10px;
+}
+
+.footer ul li a {
+    color: #858585;
 }

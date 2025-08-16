@@ -1,20 +1,34 @@
 {"projects":[
   {
     "name": "Transit",
+    "description": "A Site Without Flex With Flex Login",
     "address": "https://sepehr-design.github.io/transit/",
     "git": "https://github.com/sepehr-design/transit",
+    "img": "../img/transit.png",
     "id": 1
   },
   {
     "name": "To Do List",
+    "description": "A To Do List With Flex With DummyJson",
     "address": "https://sepehr-design.github.io/to-do-list/",
     "git": "https://github.com/sepehr-design/to-do-list",
+    "img": "../img/to-do-list.png",
     "id": 2
   },
   {
     "name": "Main Page",
+    "description": "A Main Page That Shows All Projects",
     "address": "https://sepehr-design.github.io/main-page/",
     "git": "https://github.com/sepehr-design/main-page",
+    "img": "../img/main-page.png",
     "id": 3
+  },
+  {
+    "name": "Coming Soon",
+    "description": "New Projects Will Coming Soon",
+    "address": "https://github.com/sepehr-design",
+    "git": "https://github.com/sepehr-design",
+    "img": "../img/coming-soon.png",
+    "id": 4
   }
 ]}
