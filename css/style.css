@@ -142,7 +142,6 @@ ul{
     height: 60%;
     background-size: cover;
     border-radius: 5px;
-    background-image: url("/img/image-not-found-scaled.png");
 }
 .projectInfo{
     display: flex;
